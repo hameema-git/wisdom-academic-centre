@@ -13,30 +13,41 @@ const openSans = Open_Sans({
   variable: "--font-open-sans"
 });
 
+// export const metadata: Metadata = {
+//   title: 'Wisdom Academic Centre | Empowering Minds, Building Futures',
+//   description: 'Wisdom Academic Centre in Kochi offers expert coaching for +1, +2 (State/CBSE) in Science, Commerce & Humanities. Also B.COM, BBA, M.COM, MBA. Experienced faculty, concept-based learning, 5.0 rating.',
+//   generator: 'v0.app',
+//   keywords: ['tuition centre kochi', 'coaching centre kochi', 'plus one tuition', 'plus two tuition', 'CBSE coaching', 'science tuition', 'commerce tuition'],
+//   icons: {
+//     icon: [
+//       {
+//         url: '/icon-light-32x32.png',
+//         media: '(prefers-color-scheme: light)',
+//       },
+//       {
+//         url: '/icon-dark-32x32.png',
+//         media: '(prefers-color-scheme: dark)',
+//       },
+//       {
+//         url: '/icon.svg',
+//         type: 'image/svg+xml',
+//       },
+//     ],
+//     apple: '/apple-icon.png',
+//   },
+// }
+
+
 export const metadata: Metadata = {
   title: 'Wisdom Academic Centre | Empowering Minds, Building Futures',
   description: 'Wisdom Academic Centre in Kochi offers expert coaching for +1, +2 (State/CBSE) in Science, Commerce & Humanities. Also B.COM, BBA, M.COM, MBA. Experienced faculty, concept-based learning, 5.0 rating.',
   generator: 'v0.app',
   keywords: ['tuition centre kochi', 'coaching centre kochi', 'plus one tuition', 'plus two tuition', 'CBSE coaching', 'science tuition', 'commerce tuition'],
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/favicon.ico',       // Use the main favicon
+    apple: '/apple-touch-icon.png',
   },
 }
-
 export default function RootLayout({
   children,
 }: Readonly<{
