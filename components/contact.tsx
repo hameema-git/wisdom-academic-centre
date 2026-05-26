@@ -304,7 +304,7 @@ ${formData.message}
 
                     {/* Instagram */}
                     <a
-                      href="https://instagram.com/"
+                      href="https://www.instagram.com/wisdomacademy._?igsh=MTc2cG9haTFvNjFjZA=="
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-14 h-14 rounded-2xl bg-white/10 hover:bg-white/20 transition flex items-center justify-center"
@@ -314,7 +314,7 @@ ${formData.message}
 
                     {/* Facebook */}
                     <a
-                      href="https://facebook.com/"
+                      href="https://www.facebook.com/share/1Jcm9Sw9C7/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-14 h-14 rounded-2xl bg-white/10 hover:bg-white/20 transition flex items-center justify-center"

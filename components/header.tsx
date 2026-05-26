@@ -3,8 +3,9 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Menu, X, Phone, MessageCircle } from "lucide-react"
+import { Menu, X, Phone, MessageCircle,GraduationCap } from "lucide-react"
 import { Button } from "@/components/ui/button"
+
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -51,7 +52,11 @@ export function Header() {
           </nav>
 
           {/* CTA Button */}
+          {/* CTA Button */}
+
           <div className="hidden md:flex items-center gap-4">
+
+            
             <a href="tel:9633212968" className="flex items-center gap-2 text-sm font-medium text-primary">
               <Phone className="h-4 w-4" />
               <span>9633212968</span>
