@@ -23,8 +23,9 @@ export function Hero() {
         min-h-screen
         flex
         items-center
-        pt-24
         overflow-hidden
+        pt-28
+        md:pt-24
       "
     >
 
@@ -73,84 +74,6 @@ export function Hero() {
 
       </div>
 
-      {/* PLUS ONE ADMISSION BUTTON */}
-
-      <div
-        className="
-          absolute
-          top-24
-          left-1/2
-          -translate-x-1/2
-          z-30
-          w-full
-          flex
-          justify-center
-          px-4
-        "
-      >
-
-        <Link
-          href="/plusone-admission"
-          className="
-            inline-flex
-            items-center
-            gap-2
-            rounded-full
-            bg-gradient-to-r
-            from-cyan-500
-            via-blue-500
-            to-indigo-600
-            px-6
-            py-3
-            text-sm
-            md:text-base
-            font-semibold
-            text-white
-            shadow-xl
-            transition-all
-            duration-300
-            hover:scale-105
-            hover:shadow-blue-500/40
-            animate-pulse
-          "
-        >
-
-          {/* LIVE DOT */}
-
-          <span className="relative flex h-3 w-3">
-
-            <span
-              className="
-                absolute
-                inline-flex
-                h-full
-                w-full
-                rounded-full
-                bg-cyan-300
-                opacity-75
-                animate-ping
-              "
-            ></span>
-
-            <span
-              className="
-                relative
-                inline-flex
-                h-3
-                w-3
-                rounded-full
-                bg-cyan-100
-              "
-            ></span>
-
-          </span>
-
-          🎓 Plus One Admission 2026 Open
-
-        </Link>
-
-      </div>
-
       {/* MAIN CONTAINER */}
 
       <div
@@ -184,7 +107,8 @@ export function Hero() {
 
               <h1
                 className="
-                  text-5xl
+                  text-4xl
+                  sm:text-5xl
                   md:text-6xl
                   lg:text-7xl
                   font-extrabold
@@ -203,7 +127,7 @@ export function Hero() {
 
               <p
                 className="
-                  text-2xl
+                  text-xl
                   md:text-3xl
                   text-blue-100
                   italic
@@ -221,7 +145,7 @@ export function Hero() {
 
             <p
               className="
-                text-lg
+                text-base
                 md:text-xl
                 text-blue-100/80
                 leading-relaxed
@@ -235,6 +159,132 @@ export function Hero() {
               learning methodologies.
 
             </p>
+
+            {/* QUICK ACTION BUTTONS */}
+
+            <div className="flex flex-col sm:flex-row gap-4 pt-2">
+
+              {/* PLUS ONE */}
+
+              <Link
+                href="/plusone-admission"
+                className="
+                  inline-flex
+                  items-center
+                  justify-center
+                  gap-2
+                  rounded-full
+                  bg-gradient-to-r
+                  from-cyan-500
+                  via-blue-500
+                  to-indigo-600
+                  px-6
+                  py-3
+                  text-sm
+                  md:text-base
+                  font-semibold
+                  text-white
+                  shadow-xl
+                  transition-all
+                  duration-300
+                  hover:scale-105
+                  hover:shadow-blue-500/40
+                "
+              >
+
+                <span className="relative flex h-3 w-3">
+
+                  <span
+                    className="
+                      absolute
+                      inline-flex
+                      h-full
+                      w-full
+                      rounded-full
+                      bg-cyan-300
+                      opacity-75
+                      animate-ping
+                    "
+                  ></span>
+
+                  <span
+                    className="
+                      relative
+                      inline-flex
+                      h-3
+                      w-3
+                      rounded-full
+                      bg-cyan-100
+                    "
+                  ></span>
+
+                </span>
+
+                🎓 Plus One Admission 2026
+
+              </Link>
+
+              {/* PLUS TWO RESULT */}
+
+              <Link
+                href="/results-2026"
+                className="
+                  inline-flex
+                  items-center
+                  justify-center
+                  gap-2
+                  rounded-full
+                  bg-gradient-to-r
+                  from-pink-500
+                  via-red-500
+                  to-orange-500
+                  px-6
+                  py-3
+                  text-sm
+                  md:text-base
+                  font-semibold
+                  text-white
+                  shadow-xl
+                  transition-all
+                  duration-300
+                  hover:scale-105
+                  hover:shadow-pink-500/40
+                "
+              >
+
+                <span className="relative flex h-3 w-3">
+
+                  <span
+                    className="
+                      absolute
+                      inline-flex
+                      h-full
+                      w-full
+                      rounded-full
+                      bg-white
+                      opacity-75
+                      animate-ping
+                    "
+                  ></span>
+
+                  <span
+                    className="
+                      relative
+                      inline-flex
+                      h-3
+                      w-3
+                      rounded-full
+                      bg-white
+                    "
+                  ></span>
+
+                </span>
+
+                🎉 Plus Two Result 2026
+
+              </Link>
+
+            </div>
 
             {/* BUTTONS */}
 
@@ -501,7 +551,7 @@ export function Hero() {
                 alt="Wisdom Academic Centre"
                 width={320}
                 height={320}
-                className="rounded-3xl"
+                className="rounded-3xl w-auto h-auto"
               />
 
             </div>
