@@ -18,7 +18,7 @@ export function HelpSection() {
         </p>
 
         <a
-          href="https://wa.me/919633212968"
+          href="https://wa.me/919746773682"
           target="_blank"
           className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300"
         >

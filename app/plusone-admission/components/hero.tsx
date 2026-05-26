@@ -245,7 +245,7 @@ export function Hero() {
             <div className="mt-10">
 
               <Link
-                href="https://wa.me/919633212968"
+                href="https://wa.me/919746773682"
                 target="_blank"
                 className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 px-7 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-xl"
               >
