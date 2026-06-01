@@ -226,7 +226,7 @@ export function Hero() {
 
               {/* PLUS TWO RESULT */}
 
-              <Link
+              {/* <Link
                 href="/results-2026"
                 className="
                   inline-flex
@@ -282,7 +282,7 @@ export function Hero() {
 
                 🎉 Plus Two Result 2026
 
-              </Link>
+              </Link> */}
 
             </div>
 
