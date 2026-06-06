@@ -8,6 +8,7 @@ import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { FloatingWhatsApp } from "@/components/floating-whatsapp"
 import { FloatingContact } from "@/components/floating-contact"
+import { Gallery } from "@/components/gallery"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Courses />
       <Features />
+      <Gallery />
       <Testimonials />
       <Branches />
       <Contact />

@@ -12,6 +12,7 @@ const navLinks = [
   // { href: "#branches", label: "Branches" },
   { href: "#courses", label: "Courses" },
   { href: "#features", label: "Why Us" },
+  { href: "#gallery", label: "Gallery" },
   { href: "#branches", label: "Branches" },
   { href: "#contact", label: "Contact" },
 ]
@@ -32,7 +33,7 @@ export function Header() {
               height={60}
               className="rounded-xl"
             />
-            <div className="hidden sm:block">
+            <div>
               <h1 className="text-xl font-bold text-primary leading-tight">WISDOM</h1>
               <p className="text-xs text-muted-foreground -mt-0.5">Academic Centre</p>
             </div>

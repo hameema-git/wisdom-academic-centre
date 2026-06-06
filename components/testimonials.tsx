@@ -2,9 +2,9 @@ import { Quote } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Arjun Menon",
+    name: "Arjun V S",
     course: "+2 Science Student",
-    text: "I&apos;m extremely happy with the learning experience at Wisdom Tuition Centre. The faculty really cares about each student&apos;s progress.",
+    text: "I am extremely happy with the learning experience at Wisdom Tuition Centre. The faculty really cares about each student&apos;s progress.",
   },
   {
     name: "Sreelakshmi R",

@@ -40,6 +40,7 @@ export function Footer() {
                 { href: "#about", label: "About Us" },
                 { href: "#courses", label: "Courses" },
                 { href: "#features", label: "Why Choose Us" },
+                { href: "#gallery", label: "Gallery" },
                 { href: "#branches", label: "Our Branches" },
                 { href: "#contact", label: "Contact" },
               ].map((link) => (
