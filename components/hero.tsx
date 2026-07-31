@@ -166,7 +166,7 @@ export function Hero() {
 
               {/* PLUS ONE */}
 
-              <Link
+              {/* <Link
                 href="/plusone-admission"
                 className="
                   inline-flex
@@ -222,7 +222,42 @@ export function Hero() {
 
                 🎓 Plus One Admission 2026
 
-              </Link>
+              </Link> */}
+
+              <Link
+  href="https://wisdom-academy-onam-exam-portal.netlify.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    inline-flex
+    items-center
+    justify-center
+    gap-2
+    rounded-full
+    bg-gradient-to-r
+    from-green-500
+    via-emerald-500
+    to-teal-600
+    px-6
+    py-3
+    text-sm
+    md:text-base
+    font-semibold
+    text-white
+    shadow-xl
+    transition-all
+    duration-300
+    hover:scale-105
+    hover:shadow-green-500/40
+  "
+>
+  <span className="relative flex h-3 w-3">
+    <span className="absolute inline-flex h-full w-full rounded-full bg-white opacity-75 animate-ping"></span>
+    <span className="relative inline-flex h-3 w-3 rounded-full bg-white"></span>
+  </span>
+
+  📚 Onam Exam Portions
+</Link>
 
               {/* PLUS TWO RESULT */}
 
