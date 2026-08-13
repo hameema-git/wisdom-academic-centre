@@ -223,7 +223,7 @@ export function Hero() {
                 🎓 Plus One Admission 2026
 
               </Link> */}
-
+{/* 
               <Link
   href="https://wisdom-academy-onam-exam-portal.netlify.app/"
   target="_blank"
@@ -257,7 +257,7 @@ export function Hero() {
   </span>
 
   📚 Onam Exam Portions
-</Link>
+</Link> */}
 
               {/* PLUS TWO RESULT */}
 
